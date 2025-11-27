@@ -1,0 +1,21 @@
+{
+  "domain": "ge_home",
+  "name": "GE Home Appliances (SmartHQ)",
+  "version": "2025.11.99",
+  "documentation": "https://github.com/melvir20015/gehome",
+  "issue_tracker": "https://github.com/melvir20015/gehome/issues",
+  "codeowners": [
+    "@melvir20015"
+  ],
+  "requirements": [
+    "gehomesdk==2025.11.5"
+  ],
+  "config_flow": true,
+  "integration_type": "hub",
+  "iot_class": "cloud_push",
+  "loggers": [
+    "ge_home",
+    "gehome",
+    "gehomesdk"
+  ]
+}
